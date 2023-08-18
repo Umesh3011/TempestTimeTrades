@@ -1,3 +1,3 @@
 # TempestTimeTrades
 
-This is a TempestTimeTrades watcb trading company.
+This is a TempestTimeTrades watch trading company.
