@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    
+    scroll-behavior: smooth;
+    /* background-color: #000;*/
+
+
+}
+
+
+#navbar {
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+    box-shadow: 0px 4px 5px 0px rgba(84, 84, 84, 0.71);
+
+
+}
+
+/*#navbar::before {
+    content: "";
+    background-color: rgba(135, 135, 135, 0.867);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+
+    z-index: -1;
+    opacity: .0;
+
+
+
+}
+
+*/
+#logo {
+    margin:22px -170px;
+}
+
+
+#logo h1{
+    font-size: 2rem;
+    margin-left: 30px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.7rem;
+}
+
+
+#navbar ul li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 1px   38px;
+    padding: 3px 22px;
+
+}
+
+
+
+#navbar ul li a:hover {
+   color: rgb(248, 248, 248);
+    background-color: rgb(43, 43, 43);
+    
+}
+
+
+.nav-toggle{
+    display: none;
+}
+
+.header {
+    background: radial-gradient(#fff, rgba(135, 135, 135, 0.867));
+}
+
+
+.home {
+    display: flex;
+    height: 100vh;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+
+
+}
+
+.col-1 {
+    height: 420px;
+    flex-basis: 50%;
+    min-width: 40vw;
+}
+
+.col-2 img {
+    width: 100%;
+    padding: 50px 0;
+}
+
+home::before {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    opacity: .89;
+
+
+}
+
+.col-1 h1 {
+    color: rgb(12, 12, 12);
+    line-height: 60px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-1 h1 {
+    font-size: 70px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-1 p {
+    font-size: 25px;
+}
+.col-1 p2 {
+    font-size: 25px;
+}
+
+
+
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 32px;
+    margin: 8px 0px;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.btn:hover {
+    color: black;
+    font-weight: 600;
+    background-color: #c7c7c7;
+}
+
+.center {
+    text-align: center;
+}
+
+.richard {
+
+
+
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin:34px;*/
+    align-items: center;
+    justify-content: center;
+
+
+    box-shadow: 0px 0px 13px 8px rgba(233, 227, 227, 0.71);
+    /*0px 4px 5px 0px*/
+    /* justify-content: center;*/
+
+
+}
+
+.brands {
+    height: 100vh;
+    margin: 35px 0;
+    background-color: rgb(239, 239, 239);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    display: inline-block;
+
+}
+
+
+
+.curations {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 38px 418px;
+    padding: 13px 153px;
+
+}
+
+#brands-gap {
+    padding: 44px 78px;
+}
+
+#brand-logo {
+    width: 90px;
+    height: 90px;
+}
+
+.Umesh {
+
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    /*  background-color: #fffafa;  */
+    /*  border-radius: 50%;*/
+
+
+}
+
+.Casio-logo {
+    width: 111px;
+    height: 33px;
+    padding-top: 1px;
+    /* background-color: #fffafa;*/
+    /* border-radius: 50%; */
+}
+
+.Fastrack-logo {
+    width: 102px;
+    height: 67px;
+    padding :20px ;
+}
+
+.richard-mille {
+    height: 100px;
+    margin-top: -26px;
+}
+
+#services {
+    display: flex;
+    margin: 34px;
+
+    font-family: 'Rubik', sans-serif;
+
+}
+
+#services .box {
+    border: 2px solid burlywood;
+    padding: 10px 11px;
+    margin: 13px;
+    border-radius: 27px;
+    background-color: #7fc1ff4f;
+
+
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    ;
+
+}
+
+
+
+
+#banner {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/omegathumbnail.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+
+}
+
+.humpty {
+    margin: 0px 45px;
+}
+
+#banner h4 {
+    color: rgb(250, 250, 250);
+
+    font-size: 2.5rem;
+    padding: 10px 0;
+
+}
+
+#banner h2 {
+    color: #fff6f6;
+    font-size: 4rem;
+    padding: 10px 0;
+
+}
+
+#banner h2 span {
+    color: rgb(110, 231, 190);
+}
+
+#banner button {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 32px;
+    margin: 8px 0px;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#banner button:hover {
+    color: black;
+    background-color:  rgba(255, 255, 255, 0.867);;
+}
+
+#ads-banner .banner-box {
+   /* display: flex;
+    flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+   
+    background: url(../assets/Rolex-backgroundimg.jpg);
+  
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner-box button {
+    display: inline-block;
+    background:  rgba(84, 84, 84, 0.71);;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 32px;
+    margin: 535px 398px;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.banner-box button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+#ads-banner{
+    height: 100%;
+}
+
+#ads-banner img{
+    width: 100%;
+    
+}
+
+
+
+#Sign-Up {
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    height: 30vh;
+    margin-top: 20px;
+    background: url(../assets/signup-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Sign-up-info {
+    margin-left: 146px;
+
+}
+
+.Sign-up-info h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b8b8b8;
+}
+
+.Sign-up-info p {
+    font-size: 1.5rem;
+    color: #b8b8b8;
+}
+
+
+.form {
+    margin: 0px 81px;
+}
+
+.form input {
+    height: 3.125em;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 247px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+
+.form button {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 8px 0px;
+    border-radius: 14px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(183, 185, 219);
+}
+
+
+
+
+
+.omega {
+    margin: -14px -17px;
+    width: 156px;
+    height: 130px;
+}
+
+/*
+.col{
+    justify-content: center ;
+    align-items: center ;
+    
+  padding: 40px 80px;
+}
+
+.col h4{
+    margin-bottom: 8px;
+
+}
+
+.col p{
+    margin-bottom: 8px;
+}
+
+
+*/
+
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.foot h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.sage {
+    margin-left: 20px;
+}
+
+.sage p {
+    margin-bottom: 20px;
+}
+
+.sage h1{
+    color: rgb(12, 12, 12);
+    line-height: 90px;
+    font-weight: 900;
+
+   
+}
+
+
+
+.foot a {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    background-color: #000;
+    color: #fff;
+}
+
+
+#play-store {
+
+    width: 215px;
+    height: 76px;
+}
+
+#app-store {
+
+    width: 204px;
+    height: 113px;
+}
+
+.install-App {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}

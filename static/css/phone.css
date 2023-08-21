@@ -1,0 +1,545 @@
+
+
+@media screen and (max-width:1350px)
+{
+  
+
+
+.over{
+  overflow: hidden;
+  width: 100%;
+ 
+}
+
+
+  h3{
+    font-size: 1.2rem;
+  }
+
+.home {
+  display: flex;
+  height: 94vh;
+  align-items: center;
+}
+
+.col-1 h1 {
+  font-size: 2.2rem;
+
+
+}
+p {
+  font-size: 22px;
+}
+p2{
+  display: none;
+}
+
+
+.col-2 img {
+    width: 261px;
+    padding: 2px 0px ;
+   
+}
+
+.col-1 h1 {
+  font-size: 2.6rem;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.nav-toggle{
+  display: block;
+}
+
+.nav-links{
+  position: absolute;
+  left: -100%;
+  top: 100%;
+  width: 100%;
+  padding-block: 20px 20px ;
+}
+
+.nav-links.active{
+  left: 137px;
+}
+
+.nav-links ul{
+  flex-direction: column;
+}
+
+
+
+
+#product-1{
+  width: 100%;
+}
+
+.head{
+  
+  margin: -20px 58px;
+    padding: 13px 149px;
+}
+
+
+
+#product-1 .prod-1 {
+  overflow: hidden;
+  width: 30%;
+  padding: 0px 0px;
+  justify-content: none;
+  height: 302px;
+  margin: 0px 12px;
+  margin-bottom: 10px;
+}
+
+.product-container {
+  overflow: hidden;
+  width: 800px;
+}
+
+.col-1{
+  padding:19px 0px;
+}
+#ads-banner .banner-box {
+  width: 100%;
+  height: 55vh;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#banner{
+  height: 58vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.humpty {
+  margin: 0px 34px;
+}
+
+#banner h2{
+  font-size: 2rem;
+}
+#banner h4{
+  font-size: 2rem;
+}
+
+
+
+
+#ads-banner .banner-box button{
+  margin: 294px 129px;
+  padding: 10px 15px;
+}
+
+
+.brands{
+  width: 100%;
+}
+
+.curations{
+  width: 100%;
+  padding: 9px 10px;
+  margin: 53px 228px;
+}
+
+.Sign-up-info p {
+  font-size: 20px;
+  color: #b8b8b8;
+}
+.Sign-up-info p1 {
+  display:none
+
+}
+.Sign-up-info {
+  margin-left: 54px;
+}
+
+.Sign-up-info h4 {
+  font-size: 23px;
+  
+  padding: 6px 0px;
+}
+
+
+.foot{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+text-align: center;
+align-items: center;
+}
+
+
+.sage {
+    margin-left: 0px;
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 26px;
+}
+
+.install-App {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-bottom: 20px;
+  align-items: center;
+}
+.foot {
+ 
+  text-align: center;
+  align-items: center;
+  background-color: #bfbfbf;
+}
+
+.foot h4{
+  font-size: 2.5rem;
+}
+.foot h1{
+  font-size: 3rem;
+}
+
+}
+
+@media  screen and  (max-width:799px){
+
+  .over{
+    overflow: hidden;
+    width: 100%;
+   
+  }
+
+  .col-1 p {
+    font-size: 18px;
+}
+
+.col-1 h1 {
+  font-size: 2.2rem;
+  
+}
+
+.col-2 img {
+  width: 238px;
+  padding: 0px 0px;
+  height: 307px;
+  margin-bottom: 95px;
+}
+
+.curations {
+  width: 100%;
+  padding: 0px 25px;
+  margin: 40px 118px;
+}
+
+.brands {
+  width: 100%;
+  margin: 0px;
+
+
+}
+#brands-gap {
+  padding: 14px 51px;
+}
+
+#banner{
+  margin: 0px;
+}
+
+
+
+#ads-banner .banner-box button {
+  margin: 207px 127px;
+  padding: 5px 3px;
+  font-size: 9px;
+}
+
+#banner button {
+  margin: 1px 1px;
+  padding: 8px 12px;
+}
+
+
+#Sign-Up{
+  flex-direction: column;
+  height: 40vh;
+
+}
+
+.form {
+  margin: 39px 81px;
+}
+
+.Sign-up-info p {
+  font-size: 18px;
+}
+
+.Sign-up-info h4 {
+ 
+  margin-top: 27px;
+}
+
+.form button {
+  
+  padding: 4px 11px;
+  font-size: 12px ;
+
+
+
+}
+
+}
+
+@media  screen and  (max-width:475px){
+
+
+  .over{
+    overflow: hidden;
+    width: 100%;
+   
+  }
+
+  .home {
+    
+    flex-direction: column-reverse;
+}
+
+
+.col-2 img {
+  width: 180px;
+  padding: 0px 0px;
+  height: 231px;
+  margin-bottom: 32px;
+}
+
+.col-2 img {
+  width: 123px;
+ 
+  height: 164px;
+
+}
+
+.col-1 {
+  padding: 1px 0px;
+}
+
+.col-1 h1 {
+  font-size: 1.8rem;
+
+  margin: 0px;
+}
+.col-1 p {
+  font-size: 15px;
+}
+
+.btn{
+  padding: 4px 8px;
+}
+
+.curations {
+  width: 100%;
+  padding: 0px 21px;
+  margin: 21px 23px;
+  font-size: 46px;
+}
+#ads-banner .banner-box button {
+  margin: 204px 51px;
+}
+
+
+
+}
+
+@media  screen and (max-width:399px){
+  
+
+  .over{
+    overflow: hidden;
+  }
+
+  .home{
+    overflow: hidden;
+  }
+
+  #logo h1 {
+    font-size: 1.8rem;
+  
+    margin: 11px 149px;
+}
+
+  .col-2 img {
+    width: 189px;
+    height: 234px;
+}
+
+
+.col-1 h1 {
+  font-size: 1.2rem;
+  margin: 35px 60px;
+}
+
+.col-1 p {
+  font-size: 19px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 47px 107px;
+}
+
+.container{
+  margin: 2px;
+}
+
+.Umesh{
+  margin-bottom: 5px;
+}
+
+#banner{
+  background-position: center;
+}
+
+#banner h2 {
+  font-size: 1.5rem;
+}
+
+.humpty {
+  margin: 17px 26px;
+  margin-bottom: 294px;
+}
+
+
+#banner h4 {
+  font-size: 2rem;
+  padding: 16px 69px;
+}
+
+#banner button {
+  margin: -1px 67px;}
+
+
+
+
+#ads-banner .banner-box{
+  background-position:left;
+}
+#ads-banner .banner-box button {
+  margin: 288px 157px;
+  background-color: #134f13;
+}
+
+#Sign-Up{
+  margin-top: 0px;
+}
+.Sign-up-info h4 {
+  margin-top: 27px;
+  margin-bottom: 11px;
+}
+
+.foot h1 {
+  font-size: 2.5rem;
+}
+
+
+
+}
+
+@media  screen and (max-width:361px){
+  
+
+  .over{
+    overflow: hidden;
+  }
+
+  .home{
+    overflow: hidden;
+  }
+
+  #logo h1 {
+    font-size: 2rem;
+  
+    margin: 11px 149px;
+}
+
+  .col-2 img {
+    width: 189px;
+    height: 234px;
+}
+
+
+.col-1 h1 {
+  font-size: 1.86rem;
+  margin: 35px 60px;
+}
+
+.col-1 p {
+  font-size: 19px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 47px 107px;
+}
+
+.container{
+  margin: 2px;
+}
+
+.Umesh{
+  margin-bottom: 5px;
+}
+
+#banner{
+  background-position: center;
+}
+
+#banner h2 {
+  font-size: 1.5rem;
+}
+
+.humpty {
+  margin: 17px 26px;
+  margin-bottom: 294px;
+}
+
+
+#banner h4 {
+  font-size: 2rem;
+  padding: 16px 69px;
+}
+
+#banner button {
+  margin: -1px 67px;}
+
+
+
+
+#ads-banner .banner-box{
+  background-position:left;
+}
+#ads-banner .banner-box button {
+  margin: 288px 157px;
+  background-color: #134f13;
+}
+
+#Sign-Up{
+  margin-top: 0px;
+}
+.Sign-up-info h4 {
+  margin-top: 27px;
+  margin-bottom: 11px;
+}
+
+.foot h1 {
+  font-size: 2.5rem;
+}
+
+
+
+}

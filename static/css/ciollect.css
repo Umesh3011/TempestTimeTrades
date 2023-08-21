@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: black;
+}
+
+
+
+
+
+
+#navbar {
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+   background-color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+ 
+
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgba(141, 138, 138, 0.867);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+
+    z-index: -1;
+    opacity: .0;
+}
+#logo {
+    margin: 22px -170px;
+}
+
+
+
+
+
+#logo h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.7rem;
+}
+
+
+#navbar ul li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 1px 38px;
+    padding: 3px 22px;
+
+}
+
+
+#navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(237, 234, 234);
+    /* transition: 0.4s;*/
+
+
+}
+
+
+
+
+
+
+
+
+.product-container {
+    display: flex;
+   
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product-1 {
+    text-align: center;
+   
+    background-color: 0px 4px 5px 0px rgba(156, 137, 137, 0.71);
+
+
+}
+
+.head {
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    font-weight: 400;
+    margin: 24px 418px  ;
+    padding:13px 153px  ;
+}
+
+.headsds {
+    font-size: 1.5rem;
+
+}
+
+
+#product-1 .prod-1 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-1:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+
+#product-1 .prod-2 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-2:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+#product-1 .prod-3 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-3:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+#product-1 .prod-4 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-4:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+#product-1 .prod-5 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-5:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+#product-1 .prod-6 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-6:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+#product-1 .prod-7 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-7:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+
+#product-1 .prod-8 {
+    width: 23%;
+
+    padding: 10px 12px;
+    
+    background-color: white;
+    
+    cursor: pointer;
+    
+
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product-1 .prod-8:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+
+
+#product-1 .prod-1 img {
+    width: 357px;
+    height: 576px;
+    border-radius: 20px;
+}
+
+#product-1 .prod-2 img {
+   
+    width: 440px;
+    height: 442px;
+    border-radius: 20px;
+}
+
+#product-1 .prod-3 img {
+    
+    width: 432px;
+    height: 524px;
+    border-radius: 20px;
+}
+
+#product-1 .prod-4 img {
+   
+    width: 435px;
+    height: 542px;
+    border-radius: 20px;
+}
+
+
+#product-1 .prod-5 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+#product-1 .prod-6 img {
+    
+    width: 425px;
+    height: 510px;
+    border-radius: 20px;
+}
+
+
+#product-1 .prod-7 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+#product-1 .prod-8 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/*#product-1 .prod-1 .des h5 {
+    padding-top: 7px;
+    color: #6a6868;
+    font-size: 14px;
+}*/
+
+#product-1 .prod-1 .des h4 {
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+
+#product-1 h4{
+    font-size: 25px;
+    padding-top: 7px;
+    font-weight: 700;
+    color: black;
+}
+

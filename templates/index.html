@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TempestTimeTrades </title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d278b9e30c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"  href="../static/css/phone.css">
+
+
+</head>
+
+<body>
+    <div class="over">
+        <div class="header">
+            <nav id="navbar">
+                <div id="logo">
+                    <!-- <img src="TTT logo.jpg" alt="my infotech website ">-->
+                    <h1>TempestTimeTrades</h1>
+                </div>
+                <div class="nav-links" id="navbar-links">
+                <ul>
+                    <li class="item"><a href="{{ url_for('index') }}">Home</a></li>
+                    <li class="item"><a href="{{ url_for('collect') }}">Collection</a></li>
+                    <li class="item"><a href="{{ url_for('contact') }}">Contact us</a></li>
+                    <li class="item"><a href="{{ url_for('explore') }}">Explore</a>   </li>
+
+                </ul>
+            </div>
+                <a href="" class="nav-toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </nav>
+
+            <section class="home">
+
+                <div class="col-1">
+                    <h1 class=>Tempest Time Trades </h1>
+                    <p class=>"Time is the essence of life, and our watches capture its beauty, elegance, and fleeting
+                        nature.<br>
+                        With every tick and tock, we remind you to cherish each passing moment and make the most of your
+                        precious time."</p>
+                    <a href="{{ url_for('explore') }}" class="btn">Explore Now &#8594;</a>
+
+                </div>
+                <div class="col-2">
+                    <img src="../static/assets/ap2.png" alt="">
+                </div>
+            </section>
+        </div>
+
+
+        <section class="brands">
+            <h1 class="curations"> Brand Curations </h1>
+            <div class="container">
+                <div class="rolex" id="brands-gap">
+
+                    <img class="Umesh" src="../static/assets/rolexLogofinal.png" alt="">
+                </div>
+                <div class="Umesh" id="brands-gap">
+
+                    <img class="Umesh" src="../static/assets/jacob-co-logo-vector.png" alt="">
+                </div>
+                <div class="titan" id="brands-gap">
+
+
+                    <img class="Umesh" src="../static/assets/titan-logo.png" alt="">
+                </div>
+                <div class="fossil" id="brands-gap">
+
+                    <img class="Umesh" src="../static/assets/Fossil-Logo.png" alt="">
+                </div>
+                <div id="brands-gap">
+
+                    <img class="Casio-logo" src="..//static/assets/Casio-Logo-PNG-Isolated-File.png" alt="">
+                </div>
+                <div class="fastrack" id="brands-gap">
+
+
+                    <img class="Fastrack-logo" src="../static/assets/Fastrack_logo.png" alt="">
+
+                </div>
+                <div class="Umesh" id="brands-gap">
+
+                    <img class="Fastrack-logo" src="../static/assets/G-shockLogo.png" alt="">
+
+                </div>
+                <div class="Umesh" id="brands-gap">
+
+
+                    <img class="Fastrack-logo" src="../static/assets/Patek-Philippe-Logo-1920s.png" alt="">
+
+                </div>
+                <div class="Umesh" id="brands-gap">
+
+
+                    <img class="Fastrack-logo" src="../static/assets/Seiko-logo.png" alt="">
+
+                </div>
+
+                <div id="brands-gap">
+                    <img class="richard-mille" src="../static/assets/richard-mille.png" alt="">
+
+                </div>
+
+
+            </div>
+    </div>
+    </div>
+
+    </section>
+
+
+
+
+    <section id="banner">
+
+        <div class="humpty">
+            <h4>Repair Services </h4>
+            <h2>Upto<span>70% Off</span> in Limited Brands </h2>
+            <a href="contact.html"><button>Contact us  </button></a>
+        </div>
+    </section>
+
+    <section id="ads-banner">
+       
+        <div class="banner-box">
+           <a href="/explore">
+               <button>Explore Now</button>
+           </a>
+        </div>
+    </section>
+
+
+    <section id="Sign-Up">
+        <div class="Sign-up-info">
+            <h4>Sign Up to <p1>to Tempest Time Trades</p1> </h4>
+            <p>Get E-Mail Updates for Special Offers and New Collections </p>
+            
+        </div>
+        
+        <form action="/newsletter" method="post">
+            <div class="form">
+                <input type="email" name="email" placeholder="Your E-mail Adress">
+                <button>Sign Up</button>
+            </div>
+    </form>
+    </section>
+
+
+    <footer class="Nike">
+        <div class="foot">
+
+
+            <div class="sage">
+
+                <h1>TempestTimeTrades</h1>
+                <h4>contact</h4>
+                <p>Address: 61 Wall Sreet , Washington Road , Chicago </p>
+
+                <p><strong>Phone:</strong>+01 3453 3455</p>
+                <p><strong>Timing:</strong> 10:00 -11:00 , 24x7</p>
+
+                <div class="icon">
+
+                    <i id="facebook" class="fa-brands fa-facebook"></i>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="about">
+                <h4>About </h4>
+
+                <a href="">About us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy policy </a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Contact Us</a>
+
+
+            </div>
+
+
+
+            <div class="account">
+                <h4>My Account </h4>
+
+                <a href="">Sign in</a>
+                <a href="">View Cart</a>
+                <a href=""> My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+
+            </div>
+
+            <div class="install-App">
+                <h4>Install App </h4>
+                <p>From App Store or Google play</p>
+
+                <img id="play-store" src="play-store-logo.png" alt="">
+
+                <img id="app-store" src="App-Store-Symbol.png" alt="">
+
+                <p>Secured Payment Gateways </p>
+
+
+            </div>
+
+        </div>
+        <div class="center">
+            Copyright &copy; www.TempestTimeTrades.com All rights reserved
+        </div>
+
+    </footer>
+    </div>
+
+
+
+
+    <script src="index.js"> </script>
+
+ 
+</body>
+
+</html>
